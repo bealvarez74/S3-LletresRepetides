@@ -12,7 +12,7 @@
 	
     <h1 style="text-align:center">Sprint 03 - Nivell 1<br> Lletres Repetides</h1>
     
-    <h3>Exercici 1</h3> 
+    <h3>Exercici 1: array amb nom</h3> 
     <script>
         //N1 - Exercici 1
         let txt="";
@@ -26,7 +26,7 @@
     </script>
     <br>
     <hr>
-    <h3>Exercici 2</h3> 
+    <h3>Exercici 2: vocal o consonant</h3> 
     <script>
         //N1 - Exercici 2
         let text="";
@@ -59,10 +59,10 @@
     </script> 
     <br>
     <hr>
-    <h3>Exercici 3</h3> 
+    <h3>Exercici 3: repetició de lletres</h3> 
     <script>
         //N1 - Exercici 3
-        let myname=["B","E","A","T","R","I","Z"];
+       let myname=["B","E","A","T","R","R","I","Z"];
         let name_counter = {};
 
         myname.forEach(function(letra) {
@@ -80,36 +80,10 @@
         console.log('I ' + name_counter.I);
         console.log('Z ' + (name_counter.Z || 0));
       
-    </script> 
-    <script>
-        //N1 - Exercici 3
-        let names=["B","E","A","T","R","I","Z"];
-        let mymap = new Map();
-        let iter = mymap.entries();
-        let valor = 0;
-
-        names.forEach(myFunction);
-        function myFunction(value, index, array) {
-        txt = value;
-        if (txt==="B"){
-         valor=valor+1; 
-        }
-        }     
-        
-        mymap.set("B",valor);
-        mymap.set("E",valor);
-        mymap.set("A",valor);
-        mymap.set("T",valor);
-        mymap.set("R",valor);
-        mymap.set("I",valor);
-        mymap.set("Z",valor);
-
-        console.log(iter);   
-      
-    </script> 
+    </script>
     <br>
     <hr> 
-    <h3>Exercici 4</h3> 
+    <h3>Exercici 4: array lletres del nom</h3> 
     <script>
         //N1 - Exercici 4
         let name=["B","E","A","T","R","I","Z"];
